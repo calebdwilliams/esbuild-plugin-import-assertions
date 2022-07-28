@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-plugin-import-assert",
+  "name": "esbuild-plugin-import-assertions",
   "version": "1.0.0",
   "description": "A plugin for esbuild to enable import assertions",
   "main": "lib/index.js",
@@ -17,6 +17,7 @@
   "keywords": [
     "esbuild",
     "import",
+    "import-assertions",
     "import-assert",
     "plugin"
   ],
