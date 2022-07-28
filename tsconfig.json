@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "lib": ["DOM", "ES2020"],
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["@types/node"],
+    "module": "ESNext"
+  },
+  "exclude": ["app.ts", "lib", "demo"]
+}
