@@ -4,5 +4,5 @@
     "rootDir": "demo",
     "module": "ESNext"
   },
-  "include": ["./app.ts", "./module.d.ts"]
+  "include": ["./demo/*.*"]
 }

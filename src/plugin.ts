@@ -30,5 +30,5 @@ export const importAssertPlugin: Plugin = {
     } else {
       console.warn('\x1b[1m', '⚠️ You must set esbuild\'s bundle option to `true` when using esbuild-plugin-import-assert');
     }
-  },
-}
+  }
+};
