@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-import-assertions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for esbuild to enable import assertions",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -10,6 +10,7 @@
   },
   "type": "module",
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsc --project tsconfig.json",
     "dev": "node ./index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
